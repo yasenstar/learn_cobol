@@ -1,0 +1,12 @@
+IDENTIFICATION DIVISION.
+
+PROGRAM-ID. cobol_helloworld.
+
+PROCEDURE DIVISION.
+
+Begin.
+    PERFORM DisplayGreeting 10 TIMES.
+    STOP RUN.
+
+DisplayGreeting.
+    DISPLAY "Greetings from COBOL, HELLO WORLD!".
